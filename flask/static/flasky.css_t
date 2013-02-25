@@ -14,8 +14,9 @@
 /* -- page layout ----------------------------------------------------------- */
  
 body {
-    font-family: 'Georgia', serif;
-    font-size: 17px;
+   font-family: 'Open Sans', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva',
+                 'Verdana', sans-serif;
+    font-size: 14px;
     background-color: white;
     color: #000;
     margin: 0;
@@ -98,9 +99,10 @@ div.sphinxsidebarwrapper p.logo {
  
 div.sphinxsidebar h3,
 div.sphinxsidebar h4 {
-    font-family: 'Garamond', 'Georgia', serif;
+    font-family: 'Open Sans', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva',
+                 'Verdana', sans-serif;
     color: #444;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: normal;
     margin: 0 0 5px 0;
     padding: 0;
@@ -156,13 +158,14 @@ div.body h3,
 div.body h4,
 div.body h5,
 div.body h6 {
-    font-family: 'Garamond', 'Georgia', serif;
+    font-family: 'Open Sans', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva',
+                 'Verdana', sans-serif;
     font-weight: normal;
-    margin: 30px 0px 10px 0px;
+    margin: 24px 0px 10px 0px;
     padding: 0;
 }
 
-{% if theme_index_logo %}
+{% if False %}
 div.indexwrapper h1 {
     text-indent: -999999px;
     background: url({{ theme_index_logo }}) no-repeat center center;
@@ -210,9 +213,10 @@ dd div.admonition {
 }
 
 div.admonition p.admonition-title {
-    font-family: 'Garamond', 'Georgia', serif;
+font-family: 'Open Sans', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva',
+                 'Verdana', sans-serif;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 20px;
     margin: 0 0 10px 0;
     padding: 0;
     line-height: 1;
